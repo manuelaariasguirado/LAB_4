@@ -22,9 +22,8 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
-     align-items: center; 
-     position: relative;
-
+    align-items: center; 
+    position: relative;
 }
 
 .titleHeader{
@@ -46,7 +45,6 @@ nav{
     align-items: center;
     position: absolute;
     top: 0;
-
 }
 
 ul{
@@ -62,24 +60,27 @@ ul{
     justify-content: space-between;
     text-align: center;
     flex-direction: column;
-   
+}
 
+.redBlock h2{
+    text-decoration-color: #00B172;
 }
 
 .orangeBlock{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-
-
 }
 
 .yellowBlock{
     width: 200px;
 }
 
+.yellowBlock h3{
+    color: #00B172;
+}
+
 .icons{
-    /* width: 100px; */
     height: 100px;
 }
 
@@ -87,22 +88,53 @@ ul{
     background-color:#00B172;
     color:#FFF;
     display: flex;
+    justify-content:space-evenly;
+    position: relative;
+    padding: 10%;
 }
 
 .screenshot{
-    width: 100%;
-    align-items: center;
-    background-color: aqua;
+    width: 300px;
 }
 
-.textFooter{
-    width: 200px;
-    align-items: center;
+.underline1{
+    display: flex;
+    justify-content: center;
+}
 
+.underline1 h2{
+    border-bottom: solid 4px #00B172;
+    padding-bottom: 4px;
+}
+
+.underline2{
+    width: 340px;
+}
+.underline2 h2{
+    text-decoration: underline;
+    text-underline-offset: 10px; 
+}
+
+.grouptextFooter{
+    display: flex;
+    flex-direction: column;
 }
 
 .logoWhite{
-    /* width: auto; */
-    /* height: auto; */
-    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.screenshot img {
+    width: 100%;
+}
+.blueBlock h2{
+    width: 100%;
+}
+
+.textFooter{
+    width: 40%;
 }
